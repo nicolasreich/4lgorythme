@@ -177,10 +177,13 @@ ul.about-list li{
 ul.about-list li span{
 	margin-right: 10px;
 }
+div.about-text h2{
+	line-height: 90%;
+}
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(../img/4l1.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -283,6 +286,16 @@ img.img-circle.team-img {
 	margin-top: 40px;
 }
 
+.left {
+	float: left;
+}
+
+#price-list {
+	max-width: 50%;
+	max-height: auto;
+	float:none;
+	margin: 0 auto;
+}
 #tf-services i.fa {
 	font-size: 40px;
 	border: 4px solid #FCAC45;
@@ -306,7 +319,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-clients{
-	background: url(../img/04.jpg);
+	background: url(../img/desert.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -331,6 +344,17 @@ img.img-circle.team-img {
     margin: 35px;
     color: #FFF;
     text-align: center;
+
+}
+
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+#sponsors img {
+	max-width: 50%;
+	max-height: auto;
 }
 /* Gallery Section
 ==============================*/

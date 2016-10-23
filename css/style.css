@@ -74,6 +74,7 @@ ul, ol{
 #tf-menu {
 	padding: 20px;
 	transition: all 0.8s;
+	font-size: 800%;
 }
 #tf-menu.navbar-default {
 	background-color: rgba(248, 248, 248, 0);
@@ -535,6 +536,10 @@ label {
 	outline: 0;
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
+}
+
+.share-links {
+	font-size: 200%;
 }
 
 button.btn.tf-btn.btn-default {
